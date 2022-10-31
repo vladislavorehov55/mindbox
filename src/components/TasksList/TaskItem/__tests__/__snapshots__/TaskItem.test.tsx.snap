@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskItem component should render correctly 1`] = `
+<TaskItem
+  completeTask={[MockFunction]}
+  taskItem={
+    {
+      "id": 1,
+      "text": "Watch",
+      "type": "all",
+    }
+  }
+>
+  <li
+    className="undefined false"
+    onClick={[Function]}
+  >
+    <svg
+      height="24px"
+      version="1.1"
+      viewBox="0 0 24 24"
+      width="24px"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        fill="none"
+      >
+        <circle
+          cx="12"
+          cy="12"
+          id="Circle"
+          r="9"
+          stroke="#6B6C6E"
+          strokeWidth="1"
+        />
+      </g>
+    </svg>
+    Watch
+  </li>
+</TaskItem>
+`;

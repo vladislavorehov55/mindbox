@@ -1,0 +1,20 @@
+.container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  background: #fff;
+}
+.btn {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 5px;
+}
+.btnActive {
+  border: 1px solid black;
+}

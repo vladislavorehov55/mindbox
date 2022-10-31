@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BottomPanel component should render correctly 1`] = `
+<BottomPanel
+  activeTasksCount={1}
+  clearCompleted={[MockFunction]}
+  filterTasks={[MockFunction]}
+  filteredType="all"
+>
+  <div>
+    <span>
+      1
+       items left
+    </span>
+    <div>
+      <button
+        className="undefined undefined"
+        key="0"
+        onClick={[Function]}
+      >
+        All
+      </button>
+      <button
+        key="1"
+        onClick={[Function]}
+      >
+        Active
+      </button>
+      <button
+        key="2"
+        onClick={[Function]}
+      >
+        Completed
+      </button>
+    </div>
+    <button
+      onClick={[MockFunction]}
+    >
+      Clear completed
+    </button>
+  </div>
+</BottomPanel>
+`;
